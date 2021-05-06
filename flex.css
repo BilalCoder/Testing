@@ -1,0 +1,11 @@
+.wrapper{
+    display: flex;
+}
+.wrapper > div{
+    flex: 1;
+}
+.box{
+    background: darkgray;
+    border-radius: 3px;
+    margin: 5px;
+}
