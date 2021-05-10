@@ -1,0 +1,69 @@
+.container{
+    background: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(270deg, red, blue);
+    overflow: hidden;
+}
+body{
+    background: hotpink;
+}
+.navbar ul .li-left{
+    float: left;
+    margin: 10px;
+}
+.navbar ul .li-right{
+    float: right;
+    margin: 10px;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 12px 12px 12px ;
+    text-decoration: 0;
+}
+a:hover{
+    color: chartreuse;
+}
+a:visited{
+    color: gold;
+}
+li a:active{
+    color: darkmagenta;
+}
+ul li ul.dropdown{
+    display: none;
+    z-index: 9999;
+    position: absolute;
+    margin: 5px; 
+    color: white;
+    background-color: aqua;   
+    
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+[class|="check"] {
+    color: red;
+  }
+[class$="three"] {
+    color: blue;
+  }
+[class*="ou"] {
+    color: green;
+  }
+  [type="text"] {
+    color: yellow;
+  }
+ /*This is linear gradient-->*/
+body{
+   /* background: linear-gradient(to bottom right, green, yellow);*/
+    background: linear-gradient(to right, white, blue);
+    height: 100%;
+}

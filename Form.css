@@ -1,0 +1,39 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/lato-font/3.0.0/css/lato-font.min.css");
+/*for global declaration, use root selector**/
+/*:root{
+
+}*/
+body{
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Lato",sans-serif;
+}
+.container{
+    border: 1px solid grey;
+    border-radius: 3%;
+}
+.container-center{
+    margin: auto;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    width: 30%;
+    /*margin-left: 45%;*/
+}
+.register-header{
+    display: grid;
+    row-gap: 2px;
+    grid-template-columns: 2fr;
+    background: hotpink;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+.register-body{
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: 1fr 2fr;
+    width: 50%;
+}
+]

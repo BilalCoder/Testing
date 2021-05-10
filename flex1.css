@@ -1,0 +1,20 @@
+.flexcontainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.flexitem{
+    background: yellowgreen;
+    padding: 5px;
+    height: 150px;
+    width: 200px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+font-size: 30px;
+text-align: center;    
+}

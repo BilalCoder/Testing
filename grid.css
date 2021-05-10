@@ -1,0 +1,16 @@
+.body > *{
+    background: gainsboro;
+    padding: 2rem;
+    text-align: center;
+    border: 5px solid white;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-auto-rows: minmax(10px, auto);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+div{
+    border: 1px solid violet;
+}

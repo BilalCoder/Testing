@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 body > * {
     background: gainsboro;
@@ -16,6 +17,6 @@ body > * {
     flex: 2
 }
 .sidebar{
-    flex: 1
+    flex: 2
 }
 

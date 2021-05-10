@@ -1,0 +1,7 @@
+.navigation{
+    height: 40px;
+    width: 100%;
+    border: 5px solid black;
+    background: blue;
+    position: fixed;
+}

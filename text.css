@@ -1,0 +1,29 @@
+.shadow{
+    text-shadow: 10px 10px rgb(6, 122, 58);
+}
+.keep-all{
+    width: 200px;
+    word-wrap: keep-all;
+    border: 1px solid blue;
+}
+.break-all{
+    width: 200px;
+    word-wrap: break-all;
+    border: 1px solid blue;
+}
+.button-disabled{
+    color: blue;
+}
+.button-enabled{
+    color: rgb(226, 73, 26);
+}
+input:read-only{
+    background-color: gray;
+}
+li:nth-child(2n){
+    color: red;
+}
+li:hover:nth-child(2n+1){
+    color: yellow;
+}
+
